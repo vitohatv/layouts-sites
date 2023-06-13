@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+}
+body {
+    background: #000000;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-top {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.phone-logo {
+    width: 14px;
+    height: 14px;
+    margin-right: 16px;
+}
+.header-login-contacts {
+    display: flex;
+}
+.header-login-block {
+    display: flex;
+    color: #969696;
+    font-size: 12px;
+}
+.header-login-info {
+    color: #969696;
+    font-size: 12px;
+}
+.login-icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+.login {
+    color: #969696;
+    margin-right: 5px;
+    transition: 0.4s all ease-in;
+}
+.login:hover {
+    color: #FFFFFF;
+    transition: 0.4s all ease-out;
+}
+.register {
+    color: #969696;
+    margin-left: 5px;
+    transition: 0.4s all ease-in;
+}
+.register:hover {
+    color: #FFFFFF;
+    transition: 0.4s all ease-out;
+}
+.header-nav {
+    background: #0F0F0F;
+    padding: 30px
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link {
+    font-size: 14px;
+    color: #969696;
+    text-transform: uppercase;
+    margin-left: 30px;
+    transition: 0.4s all ease-in;
+}
+.header-link:hover {
+    color: #FFFFFF;
+    transition: 0.4s all ease-out;
+}
+.header-cart-icon {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.white-line {
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: 50px auto;
+}
+
+
+.main {
+    background: url(../img/header-main-pict.jpg) no-repeat center / cover;
+    padding: 160px 0 160px;
+}
+.main-subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 730px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.main-block-logo {
+    width: 310px;
+    height: 310px;
+    border: 4px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.main-block-text {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 22px;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+.new-collection-block {
+    background: url(../img/picture-1.jpg) no-repeat center / cover;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 85px;
+}
+.new-collection-title {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+}
+.new-collection-subtitle {
+    font-family: 'PT Sans';
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 9px 15px;
+    transition: 0.4s all ease-in;
+}
+.new-collection-subtitle:hover {
+    background: black;
+    transition: 0.4s all ease-out;
+}
+.season-block-title {
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+.season-and-collection {
+    padding: 80px 50px;
+}
+.season-blocks-wrapper {
+    display: flex;
+}
+.card-clocks-wrapper {
+    display: flex;
+}
+.card-clock {
+    width: 300px;
+}
+.card-clock-image {
+    padding: 40px 15px;
+    background: #191B1C;
+}
+.card-clock-title {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.card-clock-price {
+    color: #D0D0D0;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+}
+
+.old-collection {
+    display: flex;
+}
+.old-collection-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.old-collection-title {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+.old-collection-subtitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    width: 471px;
+    margin: 0 auto;
+}
+.old-collection-btn {
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 300px;
+    padding: 9px;
+    margin: 0 auto;
+    margin-top: 73px;
+    transition: 0.4s all ease-in;
+}
+.old-collection-btn:hover {
+    background: #fff;
+    color: #000000;
+    transition: 0.4s all ease-out;
+}
+
+
+.new-products-description {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+.new-products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.product-clock-img {
+    background: #191B1C;
+    padding: 40px 15px;
+}
+.product-title {
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    color: #D0D0D0;
+    margin-bottom: 40px;
+}
+
+
+.brands {
+    background: #0F0F0F;
+}
+.brands-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.brands-title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.footer {
+    background: url(../img/footer-img.jpg) no-repeat center / cover;
+}
+.footer-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom {
+    background-color: #000000;
+    padding: 17px;
+}
+.footer-category {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.about-shop-subtitle {
+    width: 350px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 97px;
+}
+.newsletter-block-subtitle {
+    width: 350px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+}
+.category-name {
+    padding: 10px 20px;
+    background: #0F0F0F;
+    font-size: 14px;
+    color: #D0D0D0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: 0.4s all ease-in;
+}
+.category-name:hover {
+    color: #8f8f8f;
+    transition: 0.4s all ease-out;
+}
+.categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 315px;
+}
+.sub-btn {
+    background: #0F0F0F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s all ease-in;
+}
+.sub-btn:hover {
+    transition: 0.4s all ease-out;
+    color: #b5b5b5;
+}
+.email-input {
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    padding: 12px;
+}
+::-webkit-input-placeholder {
+    color: #D0D0D0;
+}
+.footer-copyright-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-text  {
+    color: #D0D0D0;
+}
+.copyright-text-link {
+    color: #D0D0D0;
+    text-decoration: revert;
+}
